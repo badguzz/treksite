@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihunga Tours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .main-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="dropdown">
+            <span>About</span>
+            <div class="dropdown-content">
+                <p>About content goes here.</p>
+            </div>
+        </div>
+        <h1>Mihunga Tours</h1>
+        <div class="dropdown">
+            <span>Tours</span>
+            <div class="dropdown-content">
+                <p>Tours content goes here.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>Gallery</span>
+            <div class="dropdown-content">
+                <p>Gallery content goes here.</p>
+            </div>
+        </div>
+    </div>
+    <img class="main-image" src="main-image.jpg" alt="Main Image">
+    <div class="footer">
+        <p>Contact us at <a href="mailto:contact@mihungatours.com">contact@mihungatours.com</a> or call us at
+            +256-700-000-000</p>
+    </div>
+</body>
+
+</html>
